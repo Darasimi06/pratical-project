@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+header{
+    background-color: blue;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 12px 0;
+}
+ul{
+    display: flex;
+    gap: 13px;
+}
+ul li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgba(165, 42, 42, 0.877);
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-section{
+    background-image: url(/img/720entrance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-text{
+    text-align: center;
+    padding: 17%;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin: auto;
+}
+.our-school h1{
+    text-align: center;
+    padding: 50px 0;
+    color: blue;
+    font-size: 40px;
+
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.box-content{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+.box-content img{
+    width: 100%;
+}
+.box-content h3{
+    color: blue;
+    padding: 5px 0;
+}
+.form{
+    background-color: white;
+    text-align: center; 
+    margin: 40px 0; 
+
+}
+.form p{
+    padding-bottom: 8px;
+}
+.form h1{
+    padding-top: 20px 0;
+
+}
+label{
+    color: blue;
+    font-size: 19px;
+    
+}
+form{
+    width: 450px;
+    margin: auto;
+    text-align: left;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 8px 0;
+}
+textarea{
+    width: 100%;
+}
+.form button{
+    margin-top: 12PX;
+}
+.footer{
+    background-color: rgba(0, 0, 255, 0.655);
+    color: white; 
+    padding: 12px 12px;
+    display: flex;  
+    justify-content: space-between;     
+}
+.footer-ul{
+    display: block;    
+}
+
+
+    
+ 
+
+
+
